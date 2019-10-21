@@ -9788,7 +9788,7 @@ class Google_Service_YouTube_LiveBroadcastTopicSnippet extends Google_Model
   protected $internal_gapi_mappings = array(
   );
   public $name;
-  public $releaseDate;
+  public $release_date;
 
 
   public function setName($name)
@@ -9799,13 +9799,13 @@ class Google_Service_YouTube_LiveBroadcastTopicSnippet extends Google_Model
   {
     return $this->name;
   }
-  public function setReleaseDate($releaseDate)
+  public function setrelease_date($release_date)
   {
-    $this->releaseDate = $releaseDate;
+    $this->release_date = $release_date;
   }
-  public function getReleaseDate()
+  public function getrelease_date()
   {
-    return $this->releaseDate;
+    return $this->release_date;
   }
 }
 

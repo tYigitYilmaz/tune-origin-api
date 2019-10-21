@@ -1,0 +1,27 @@
+{
+    "kernel": {
+        "loadServices": [
+            "Service\\Abst",
+            "Service\\Concrete",
+            "Data\\Repository\\Concrete",
+            "Data\\Repository\\Abst",
+            "App\\Controller"
+        ],
+        "services": {
+            "Data\\Repository\\Abst\\IGenreRepo":"Data\\Repository\\Concrete\\GenreRepo",
+            "Service\\Abst\\IGenreService":"Service\\Concrete\\GenreService",
+
+            "Data\\Repository\\Abst\\ITrackRepo":"Data\\Repository\\Concrete\\TrackRepo",
+            "Service\\Abst\\ITrackService":"Service\\Concrete\\TrackService",
+
+            "Data\\Repository\\Abst\\IArtistRepo":"Data\\Repository\\Concrete\\ArtistRepo",
+            "Service\\Abst\\IArtistService":"Service\\Concrete\\ArtistService",
+
+            "Data\\Repository\\Abst\\IUserFavouritesRepo":"Data\\Repository\\Concrete\\UserFavouritesRepo",
+            "Service\\Abst\\IUserFavouritesRepo":"Service\\Concrete\\UserFavouritesRepo",
+
+            "Data\\Repository\\Abst\\ILabelRepo":"Data\\Repository\\Concrete\\LabelRepo",
+            "Service\\Abst\\IUserFavourLabelRepo":"Service\\Concrete\\LabelRepo"
+        }
+    }
+}

@@ -622,7 +622,7 @@ class Google_Service_Playmoviespartner_Avail extends Google_Collection
   public $ratingReason;
   public $ratingSystem;
   public $ratingValue;
-  public $releaseDate;
+  public $release_date;
   public $seasonAltId;
   public $seasonNumber;
   public $seasonTitleInternalAlias;
@@ -789,13 +789,13 @@ class Google_Service_Playmoviespartner_Avail extends Google_Collection
   {
     return $this->ratingValue;
   }
-  public function setReleaseDate($releaseDate)
+  public function setrelease_date($release_date)
   {
-    $this->releaseDate = $releaseDate;
+    $this->release_date = $release_date;
   }
-  public function getReleaseDate()
+  public function getrelease_date()
   {
-    return $this->releaseDate;
+    return $this->release_date;
   }
   public function setSeasonAltId($seasonAltId)
   {

@@ -1,22 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="352895b4-8bf1-4f23-b577-4be7a0b78b18" name="Default Changelist" comment="" />
+    <list default="true" id="352895b4-8bf1-4f23-b577-4be7a0b78b18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/GenreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/TrackController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/TrackParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/Artist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/Genre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/Label.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/TopTracks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/Track.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/entity/UserFavourites.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/abst/IGenreService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/abst/IImageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/abst/ITrackService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/throblabs-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/throblabs-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entity.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/google/apiclient/src/Google/Service/Playmoviespartner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/google/apiclient/src/Google/Service/Playmoviespartner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/google/apiclient/src/Google/Service/YouTube.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/google/apiclient/src/Google/Service/YouTube.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/rapidwebltd/php-google-contacts-v3-api" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/facebook/graph-sdk" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1PEjP4ppghWT51jtZYM3d6raRYW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gateway-oauth" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -25,14 +109,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\throblabs-api" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\throblabs-api\config" />
+      <recent name="C:\xampp\htdocs\throblabs-api\core" />
       <recent name="C:\xampp\htdocs\throblabs-api" />
+      <recent name="C:\xampp\htdocs\throblabs-api\app\jobs" />
+      <recent name="C:\xampp\htdocs\throblabs-api\service\concrete" />
+      <recent name="C:\xampp\htdocs\throblabs-api\service\abstract" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\throblabs-api\app" />
+      <recent name="C:\xampp\htdocs\throblabs-api\app\entity" />
+      <recent name="C:\xampp\htdocs\throblabs-api\app\entity\dto\dtoImpl" />
+      <recent name="C:\xampp\htdocs\throblabs-api" />
+      <recent name="C:\xampp\htdocs\throblabs-api\app\entity\dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,11 +150,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565446122587</updated>
-      <workItem from="1565446123755" duration="5156000" />
+      <workItem from="1565446123755" duration="77612000" />
+      <workItem from="1565699148682" duration="43719000" />
+      <workItem from="1565783243999" duration="23332000" />
+      <workItem from="1565958687686" duration="3240000" />
+      <workItem from="1565984055065" duration="256000" />
+      <workItem from="1565993202091" duration="2572000" />
+      <workItem from="1566307777596" duration="8008000" />
+      <workItem from="1566393522439" duration="385000" />
+      <workItem from="1566583762346" duration="287000" />
+      <workItem from="1566584438904" duration="18126000" />
+      <workItem from="1566642481589" duration="34133000" />
+      <workItem from="1566740667025" duration="25000" />
+      <workItem from="1566740722212" duration="11424000" />
+      <workItem from="1566838808820" duration="7888000" />
+      <workItem from="1566936932764" duration="1962000" />
+      <workItem from="1566946844509" duration="634000" />
+      <workItem from="1566987459827" duration="1454000" />
+      <workItem from="1567038500821" duration="599000" />
+      <workItem from="1567082589946" duration="7220000" />
+      <workItem from="1567164800974" duration="599000" />
+      <workItem from="1568914578604" duration="2681000" />
+      <workItem from="1571168074729" duration="5096000" />
+      <workItem from="1571403353461" duration="1842000" />
+      <workItem from="1571572784501" duration="2474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
