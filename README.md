@@ -14,7 +14,7 @@ The main purpose of this api is that, taking weekly top 100 tracks from a web si
 - Inversion of control container and implementation
 - Dependency Injection in PHP
 - JWT security
-- Curl to reach DOM element from an websity
+- Curl operation to reach DOM elements from a website
 - Youtube Api implementation
 
 
